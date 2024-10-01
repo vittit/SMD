@@ -1,5 +1,6 @@
-#
-
+###################################################################################
+### Application to calculate Standard Mean Difference with Confidence Intervals ###
+###################################################################################
 
 library(shiny)
 library(bslib)
