@@ -11,7 +11,7 @@ ui <- fluidPage(
     # Application title
     titlePanel("Standard Mean Deviation and Confidence Interval Calculator"),
 
-    # Sidebar with a slider input for number of bins 
+    # Create Inputs
     fluidRow(
       column(3,
        numericInput("Group_1_Mean", "Mean (Group1)", value = 0, min = 0.1, max = 1000),
